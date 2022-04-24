@@ -1,10 +1,10 @@
 ﻿# Pokedex
 
-Pokedex designed in the **ASP.NET 6 framework** and hosted into **Azure** applications hosting.
+Pokedex designed in the :green_circle: **ASP.NET 6 framework** and hosted into **Azure** applications hosting.
 
 | Developer | Updates |
 | ----------- | ----------- |
-| Miguel Estrada | Upload of the project for sharing purposes |
+| Miguel Estrada | Upload of the project for sharing purposes 	:white_check_mark: |
 
 ### To be developed :bricks:
 
@@ -15,7 +15,7 @@ Pokedex designed in the **ASP.NET 6 framework** and hosted into **Azure** applic
 - [ ] Content
 
 
-## API used for the project
+## API used for the project :musical_note:
 
 For more information about the endpoints used from the PokeApi, please refer to: [API Documentation page](Documentation/API/Readme.md)
 
