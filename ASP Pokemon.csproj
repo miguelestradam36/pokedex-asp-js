@@ -1,0 +1,153 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>ASP_Pokemon</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\PokemonModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\View.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Knight\Knight\assets\css\style.css" />
+    <Content Include="Knight\Knight\assets\img\about.jpg" />
+    <Content Include="Knight\Knight\assets\img\apple-touch-icon.png" />
+    <Content Include="Knight\Knight\assets\img\clients\client-1.png" />
+    <Content Include="Knight\Knight\assets\img\clients\client-2.png" />
+    <Content Include="Knight\Knight\assets\img\clients\client-3.png" />
+    <Content Include="Knight\Knight\assets\img\clients\client-4.png" />
+    <Content Include="Knight\Knight\assets\img\clients\client-5.png" />
+    <Content Include="Knight\Knight\assets\img\clients\client-6.png" />
+    <Content Include="Knight\Knight\assets\img\favicon.png" />
+    <Content Include="Knight\Knight\assets\img\featured-1.png" />
+    <Content Include="Knight\Knight\assets\img\featured-2.png" />
+    <Content Include="Knight\Knight\assets\img\featured-3.png" />
+    <Content Include="Knight\Knight\assets\img\featured-4.png" />
+    <Content Include="Knight\Knight\assets\img\footer-bg.jpg" />
+    <Content Include="Knight\Knight\assets\img\hero-bg.png" />
+    <Content Include="Knight\Knight\assets\img\hero-logo.png" />
+    <Content Include="Knight\Knight\assets\img\logo.png" />
+    <Content Include="Knight\Knight\assets\img\portfolio-details-1.jpg" />
+    <Content Include="Knight\Knight\assets\img\portfolio-details-2.jpg" />
+    <Content Include="Knight\Knight\assets\img\portfolio-details-3.jpg" />
+    <Content Include="Knight\Knight\assets\img\portfolio\portfolio-1.jpg" />
+    <Content Include="Knight\Knight\assets\img\portfolio\portfolio-2.jpg" />
+    <Content Include="Knight\Knight\assets\img\portfolio\portfolio-3.jpg" />
+    <Content Include="Knight\Knight\assets\img\portfolio\portfolio-4.jpg" />
+    <Content Include="Knight\Knight\assets\img\portfolio\portfolio-5.jpg" />
+    <Content Include="Knight\Knight\assets\img\portfolio\portfolio-6.jpg" />
+    <Content Include="Knight\Knight\assets\img\portfolio\portfolio-7.jpg" />
+    <Content Include="Knight\Knight\assets\img\portfolio\portfolio-8.jpg" />
+    <Content Include="Knight\Knight\assets\img\portfolio\portfolio-9.jpg" />
+    <Content Include="Knight\Knight\assets\img\services.jpg" />
+    <Content Include="Knight\Knight\assets\img\team\team-1.jpg" />
+    <Content Include="Knight\Knight\assets\img\team\team-2.jpg" />
+    <Content Include="Knight\Knight\assets\img\team\team-3.jpg" />
+    <Content Include="Knight\Knight\assets\img\team\team-4.jpg" />
+    <Content Include="Knight\Knight\assets\img\team\team-5.jpg" />
+    <Content Include="Knight\Knight\assets\img\team\team-6.jpg" />
+    <Content Include="Knight\Knight\assets\img\testimonials-bg.jpg" />
+    <Content Include="Knight\Knight\assets\img\testimonials\testimonials-1.jpg" />
+    <Content Include="Knight\Knight\assets\img\testimonials\testimonials-2.jpg" />
+    <Content Include="Knight\Knight\assets\img\testimonials\testimonials-3.jpg" />
+    <Content Include="Knight\Knight\assets\img\testimonials\testimonials-4.jpg" />
+    <Content Include="Knight\Knight\assets\img\testimonials\testimonials-5.jpg" />
+    <Content Include="Knight\Knight\assets\img\why-us.jpg" />
+    <Content Include="Knight\Knight\assets\js\main.js" />
+    <Content Include="Knight\Knight\assets\vendor\aos\aos.css" />
+    <Content Include="Knight\Knight\assets\vendor\aos\aos.js" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap-icons\bootstrap-icons.css" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap-icons\fonts\bootstrap-icons.woff" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap-icons\fonts\bootstrap-icons.woff2" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap-icons\index.html" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-grid.rtl.css" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-grid.rtl.css.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-reboot.rtl.css" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-utilities.css" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-utilities.css.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-utilities.min.css" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-utilities.min.css.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-utilities.rtl.css" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap.rtl.css" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap.rtl.css.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap.rtl.min.css" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\css\bootstrap.rtl.min.css.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\js\bootstrap.esm.js" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\js\bootstrap.esm.js.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\js\bootstrap.esm.min.js" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\js\bootstrap.esm.min.js.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\js\bootstrap.js.map" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Knight\Knight\assets\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="Knight\Knight\assets\vendor\boxicons\css\animations.css" />
+    <Content Include="Knight\Knight\assets\vendor\boxicons\css\boxicons.css" />
+    <Content Include="Knight\Knight\assets\vendor\boxicons\css\boxicons.min.css" />
+    <Content Include="Knight\Knight\assets\vendor\boxicons\css\transformations.css" />
+    <Content Include="Knight\Knight\assets\vendor\boxicons\fonts\boxicons.eot" />
+    <Content Include="Knight\Knight\assets\vendor\boxicons\fonts\boxicons.svg" />
+    <Content Include="Knight\Knight\assets\vendor\boxicons\fonts\boxicons.ttf" />
+    <Content Include="Knight\Knight\assets\vendor\boxicons\fonts\boxicons.woff" />
+    <Content Include="Knight\Knight\assets\vendor\boxicons\fonts\boxicons.woff2" />
+    <Content Include="Knight\Knight\assets\vendor\glightbox\css\glightbox.css" />
+    <Content Include="Knight\Knight\assets\vendor\glightbox\css\glightbox.min.css" />
+    <Content Include="Knight\Knight\assets\vendor\glightbox\js\glightbox.js" />
+    <Content Include="Knight\Knight\assets\vendor\glightbox\js\glightbox.min.js" />
+    <Content Include="Knight\Knight\assets\vendor\isotope-layout\isotope.pkgd.js" />
+    <Content Include="Knight\Knight\assets\vendor\isotope-layout\isotope.pkgd.min.js" />
+    <Content Include="Knight\Knight\assets\vendor\swiper\swiper-bundle.min.css" />
+    <Content Include="Knight\Knight\assets\vendor\swiper\swiper-bundle.min.js" />
+    <Content Include="Knight\Knight\index.html" />
+    <Content Include="Knight\Knight\inner-page.html" />
+    <Content Include="Knight\Knight\portfolio-details.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="3.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Database\" />
+  </ItemGroup>
+
+</Project>

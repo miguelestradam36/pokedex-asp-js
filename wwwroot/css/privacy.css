@@ -1,0 +1,103 @@
+* {
+    scrollbar-width: thin;
+    scrollbar-color: black white;
+}
+
+    /* Works on Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    *::-webkit-scrollbar-track {
+        background: white;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background-color: white;
+        border-radius: 20px;
+        border: 3px solid black;
+    }
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #555555;
+}
+
+a {
+    text-decoration: none;
+    color: #7cc576;
+}
+
+    a:hover {
+        color: #9ed49a;
+        text-decoration: none;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-bg {
+    background-color: whitesmoke;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+    .section-title h2 {
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+        color: #151515;
+    }
+
+    .section-title p {
+        margin-bottom: 0;
+        color: #aeaeae;
+    }
+
+/*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
+.about .image {
+    padding: 20px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about .content h3 {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+    .about .content ul li {
+        padding-bottom: 10px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .about .content ul i {
+        font-size: 24px;
+        padding: 2px 6px 0 0;
+        color: #7cc576;
+    }
+
+.about .content p:last-child {
+    margin-bottom: 0;
+}

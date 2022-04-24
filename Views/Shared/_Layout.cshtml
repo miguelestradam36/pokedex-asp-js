@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - Poke Wiki</title>
+        @RenderSection("MetaData", required: true)
+        @RenderSection("Styles", required: true)
+        <link href="~/img/favicon.png" rel="icon">
+        <link href="~/img/apple-touch-icon.png" rel="apple-touch-icon">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-append-version="true"  />
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Pokemon &nbsp; <small class="text-muted">Catch 'em all &nbsp;</small></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Email" asp-action="About">ABout the Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Wiki">C# Programming Wiki</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Legendaries">Legendary hunting</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+            <main role="main" id="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+          <!-- ======= Footer ======= -->
+      <footer id="footer">
+
+        <div class="footer-top">
+
+          <div class="container">
+
+            <div class="row justify-content-center">
+              <div class="col-lg-6">
+                <a href="#header" class="scrollto footer-logo"><img src="~/img/hero-logo.png" alt=""></a>
+                <h3>Pokemon App</h3>
+              </div>
+            </div>
+
+            <div class="row footer-newsletter justify-content-center">
+              <div class="col-lg-6">
+                <form action="" method="post">
+                  <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
+                </form>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="github"><i class="bx bxl-github"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="container footer-bottom clearfix">
+          <div class="copyright">
+            <div class="container">
+                &copy; 2022 - ASP & Javascript Pokedex Application - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+          </div>
+        </div>
+      </footer><!-- End Footer -->
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
+        @RenderSection("Scripts", required: true)
+    </body>
+</html>

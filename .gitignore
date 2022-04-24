@@ -1,0 +1,8 @@
+﻿Properties/
+Database/
+Knight/
+Dependencies/
+bin/
+obj/
+Controllers/EmailController.cs
+.vs/

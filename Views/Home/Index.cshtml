@@ -1,0 +1,185 @@
+﻿@{
+    ViewData["Title"] = "Pokemon Application";
+}
+@section MetaData {
+        <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">  
+        <meta name="description" content="Pokedex application written on Javascript, CSS and HTML on the fron-end and ASP.NET on the back-end. Developed by Miguel Estrada.">
+        <meta name="keywords" content="HTML, CSS, JavaScript, ASP.NET, Pokedex, Javascript Pokedex, Miguel Estrada Projects, Miguel Estrada">
+        <meta name="author" content="Miguel Estrada">
+        <meta property="og:title" content="ASP & Javascript Pokedex Application">
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="img/logo.png">
+        <meta property="og:url" content="http://euro-travel-example.com/index.htm">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="og:description" content="Pokedex application written on Javascript, CSS and HTML on the fron-end and ASP.NET on the back-end. Developed by Miguel Estrada.">
+        <meta property="og:site_name" content="Practice - Pokemon Application">
+        <meta name="twitter:image:alt" content="Pokeball as logo">
+}
+@section Styles {
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="~/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="~/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+   <link href="~/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="~/css/index.css"/>
+}
+@section Scripts {
+    <!-- Vendor JS Files -->
+  <script src="~/vendor/aos/aos.js"></script>
+  <script src="~/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="~/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="~/vendor/isotope-layout/isotope.pkgd.min.js" async></script>
+  <script src="~/js/main.js"></script>
+}
+<!-- ======= Services Section ======= -->
+<section id="services" class="services">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Pokemon ASP.NET / Javascript Application</h2>
+            <div class="row m-1">
+                <div class="col-md-6 text-center">
+                    <p class="text-muted m-2">Practice site (Pokemon childhood fan)</p>
+                    
+                </div>
+                <div class="col-md-6 text-center">
+                    <p class="m-1">You may find tghis project code under the following Github repository: <a href="https://github.com/miguelestradam36/pokemon-asp-javascript" title="github repository of the project"><i class="bx bxl-github"></i></a> </p>
+                    <p class="m-1">For hosting matters this site is hosted on Azure upon an App Service Resource.</p></div>
+            </div>
+            <div class="row m-1">
+                <div class="col-md-6 text-center">
+                    <p class="m-1">Project developed upon an ASP.NET 6 framework, which was used for the set-up of the back-end of this project. The front-end by the other hand has been designed using Razor, CSS, HTML & Javascript</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <p class="m-1"><img src="img/pikachu.gif" class="img-fluid col-6"/></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="scizor-background col-lg-6 order-2 order-lg-1">
+                <div class="icon-box mt-5 mt-lg-0">
+                    <i class="bx bx-coin-stack"></i>
+                    <h4>Information obtained from <a href="https://pokeapi.co/docs/v2" class="text-muted"> PokeApi </a></h4>
+                    <p>This Pokemon API has information regarding any item, move, pokemon and more! This, alongside the different games launched across the years.</p>
+                </div>
+                <div class="icon-box mt-5" data-aos-delay="100">
+                    <i class="bx bx-joystick-button"></i>
+                    <h4>Motivational Nintendo</h4>
+                    <p>"Make your wonderful dream a reality, it will become your truth. If anyone can, it’s you."</p>
+                    <p class="blockquote-footer">N from <cite title="Pokemon Black/White as source">Pokemon Black/White.</cite></p>
+                </div>
+                <div class="icon-box mt-5" data-aos-delay="200">
+                    <i class="bx bx-joystick-alt"></i>
+                    <h4>Play Pokemon on your Computer!</h4>
+                    <p>Download <span class="badge rounded-pill bg-dark"><a href="https://pokemmo.eu/?local=es">POKEMMO</a></span> into your computer and take your time to search for the ROMS</p>
+                </div>
+            </div>
+            <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("img/services.jpg");'></div>
+        </div>
+                  
+
+    </div>
+</section><!-- End Services Section --><!-- ======= Portfolio Section ======= -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Pokedex</h2>
+            <h4>Filter your pokemons by<mark> Type</mark></h4>
+            <p>Click your favourite Pokemon and let's get to know some things about him.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="portfolio-flters">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-grass">Grass</li>
+                    <li data-filter=".filter-fire">Fire</li>
+                    <li data-filter=".filter-electric">Electric</li>
+                    <li data-filter=".filter-poison">Poison</li>
+                    <li data-filter=".filter-flying">Flying</li>
+                    <li data-filter=".filter-water">Water</li>
+                    <li data-filter=".filter-normal">Normal</li>
+                    <li data-filter=".filter-fighting">Fighting</li>
+                    <li data-filter=".filter-ground">Ground</li>
+                    <li data-filter=".filter-rock">Rock</li>
+                    <li data-filter=".filter-bug">Bug</li>
+                    <li data-filter=".filter-ghost">Ghost</li>
+                    <li data-filter=".filter-steel">Steel</li>
+                    <li data-filter=".filter-psychic">Psychic</li>
+                    <li data-filter=".filter-ice">Ice</li>
+                    <li data-filter=".filter-dragon">Dragon</li>
+                    <li data-filter=".filter-dark">Dark</li>
+                    <li data-filter=".filter-fairy">Fairy</li>
+                </ul>
+            </div>
+        </div>
+            <div class="row portfolio-container" id="pokedex" style="height:auto !important;">
+                 <script type ="text/javascript" async>
+                        const pokedex = document.getElementById('pokedex');
+                        const fetchPokemon = () => {
+                            const promises = [];
+                            const pokemons_ = 100;
+                            for (let i = 1; i <= pokemons_; i++) {
+                                const url = `https://pokeapi.co/api/v2/pokemon/${i}`;
+                                promises.push(fetch(url).then((res) => res.json()));
+                            }
+                            Promise.all(promises).then((results) => {
+                                var pokemon = results.map((result) => ({
+                                    name: result.name,
+                                    id: result.id,
+                                    image: result.sprites['front_default'],
+                                    official_artwork: result.sprites['other']['official-artwork']['front_default'],
+                                    types_: result.types,
+                                    primary_type: result.types[0].type.name
+                                }));
+                                for (let i = 1; i <= pokemons_; i++) {
+                                    try {
+                                        pokemon[i - 1].secundary_type = pokemon[i - 1]['types_'][1]['type']['name'];
+                                    }
+                                    catch (error) {
+                                        pokemon[i - 1].secundary_type = 'none';
+                                    };
+                                };
+                                displayPokemon(pokemon);
+                            });
+                        };
+
+                        const displayPokemon = (pokemon) => {
+                            console.log(pokemon);
+
+                            const pokemonHTMLString = pokemon.map((pokeman) => `
+                                    <div class="col-lg-2 col-md-6 portfolio-item filter-${pokeman.primary_type} filter-${pokeman.secundary_type}">
+                                        <div class="portfolio-wrap">
+                                            <img class="img-fluid col-12" src="${pokeman.image}" alt="Fan art dedicated to Pokemon ${pokeman.name}, obtained from PokeApi."/>
+                                            <div class="portfolio-info">
+                                                <h4>${pokeman.name}</h4>
+                                                <p>Type: ${pokeman.primary_type}</p>
+                                                <div class="portfolio-links">
+                                                    <a href="${pokeman.official_artwork}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="${pokeman.primary_type}: ${pokeman.name}"><i class="bx bx-plus"></i></a>
+                                                    <a><i class="bx bx-link"></i></a>
+                                                </div>
+                                            </div>
+                                          <div class="row">
+                                                <div class="col-md-6">
+                                                    <button class="btn btn-${pokeman.primary_type}" title="${pokeman.name}">${pokeman.primary_type}</button>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <button class="btn btn-${pokeman.secundary_type}" title="${pokeman.name}">${pokeman.secundary_type}</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            `
+                                )
+                                .join('');
+                            pokedex.innerHTML = pokemonHTMLString;
+                        };
+                     fetchPokemon();
+                 </script>
+            </div>
+    </div>
+</section>
