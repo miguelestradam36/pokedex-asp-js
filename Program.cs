@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddResponseCompression(options =>
 {
@@ -7,6 +9,8 @@ builder.Services.AddResponseCaching();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddSession();
+builder.Services.AddDbContext<PaymentDbContext>(options => options.UseSqlite($"Data Source={dbPath}"));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
