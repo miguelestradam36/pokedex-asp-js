@@ -1,4 +1,5 @@
-﻿@{
+﻿@model PokemonModel
+@{
     ViewData["Title"] = "Pokemon Application";
 }
 @section MetaData {
@@ -38,14 +39,14 @@
     <div class="container">
 
         <div class="section-title">
-            <h2>Pokemon ASP.NET / Javascript Application</h2>
+            <h2>Pokedex Application</h2>
             <div class="row m-1">
                 <div class="col-md-6 text-center">
                     <p class="text-muted m-2">Practice site (Pokemon childhood fan)</p>
                     
                 </div>
                 <div class="col-md-6 text-center">
-                    <p class="m-1">You may find tghis project code under the following Github repository: <a href="https://github.com/miguelestradam36/pokemon-asp-javascript" title="github repository of the project"><i class="bx bxl-github"></i></a> </p>
+                    <p class="m-1">You may find tghis project code under the following Github repository: <a href="https://github.com/miguelestradam36/pokedex-asp-js" title="github repository of the project"><i class="bx bxl-github"></i></a> </p>
                     <p class="m-1">For hosting matters this site is hosted on Azure upon an App Service Resource.</p></div>
             </div>
             <div class="row m-1">
@@ -118,7 +119,7 @@
             </div>
         </div>
             <div class="row portfolio-container" id="pokedex" style="height:auto !important;">
-                 <script type ="text/javascript" async>
+                 <script type ="text/javascript">
                         const pokedex = document.getElementById('pokedex');
                         const fetchPokemon = () => {
                             const promises = [];
@@ -160,7 +161,7 @@
                                                 <p>Type: ${pokeman.primary_type}</p>
                                                 <div class="portfolio-links">
                                                     <a href="${pokeman.official_artwork}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="${pokeman.primary_type}: ${pokeman.name}"><i class="bx bx-plus"></i></a>
-                                                    <a><i class="bx bx-link"></i></a>
+                                                    <a href=""><i class="bx bx-link"></i></a>
                                                 </div>
                                             </div>
                                           <div class="row">

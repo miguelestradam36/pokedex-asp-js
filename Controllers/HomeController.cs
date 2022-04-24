@@ -15,7 +15,7 @@ namespace ASP_Pokemon.Controllers
         }
         [Route("")]
         [Route("pokedex")]
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        [ResponseCache(Duration = 10, Location = ResponseCacheLocation.Any, NoStore = false)]
         public IActionResult Index()
         {
             return View();

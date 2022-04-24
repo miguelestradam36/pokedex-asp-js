@@ -1,17 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 namespace ASP_Pokemon.Models
 {
-    public class EmailModel
+    public class PokemonModel
     {
         [Required]
-        [StringLength(60, MinimumLength = 5)]
-        public string Name { get; set; }
-        [Required]
-        [EmailAddress]
-        public string Email { get; set; }
-        [Required]
-        public string Subject { get; set; }
-        [Required]
-        public string Message { get; set; }
+        [StringLength(4, MinimumLength = 1)]
+        public int Id { get; set; }
     }
 }
