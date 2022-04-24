@@ -6,7 +6,7 @@ Pokedex designed in the **ASP.NET 6 framework** and hosted into **Azure** applic
 | ----------- | ----------- |
 | Miguel Estrada | Upload of the project for sharing purposes |
 
-### To be developed
+### To be developed :bricks:
 
 - [x] Javascript pokedex
 - [ ] Razor pokedex support
@@ -19,7 +19,7 @@ Pokedex designed in the **ASP.NET 6 framework** and hosted into **Azure** applic
 
 For more information about the endpoints used from the PokeApi, please refer to: [API Documentation page](Documentation/API/Readme.md)
 
-## Documentation
+## Documentation :mountain_snow:
 
 For more information about how the project has been designed, please refer to the documentation markdown [Documentation page](Documentation/Architecture/Readme.md)
 
@@ -27,7 +27,7 @@ For more information about how the project has been designed, please refer to th
 
 - :octopus: Miguel Estrada: [miguelestradam36@gmail](mailto:miguelestradam36@gmail.com)
 
-Let's expand the group!
+Let's expand the group :globe_with_meridians:!
 
 ![Gangsta Squirtle](wwwroot/img/authors.gif)
 
